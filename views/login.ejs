@@ -1,0 +1,55 @@
+<%- include ("header.ejs") %>
+<%- include ("banner.ejs") %>
+
+    <!-- about section -->
+  
+    <section class="about_section layout_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="img-box">
+                <img src="images/about.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="detail-box">
+                <h2 class="custom_heading">
+
+                  <h1>Login here!!!!</h1>
+                  <br>
+                  <br>
+                  <font color="blue"><%- output %></font>
+                  
+                  <form method="post" action="/Login">
+                  
+                   <div class="form-group">
+                     <label for="email">Email address</label>
+                     <input type="email" class="form-control" id="email" name="email">
+                   </div>
+                   <div class="form-group">
+                    <label for="Pwd">Password</label>
+                    <input type="Password" class="form-control" id="Password" name="Password">
+                  </div>
+                   
+                   
+                   <button type="submit" class="btn btn-success">Login</button>
+                 </form>
+                 <!-- login 
+                  <span>
+                    Welcome to Login
+                  </span>
+                </h2> -->
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+
+ 
+  
+ 
+
+<%- include("footer.ejs") %>

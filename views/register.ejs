@@ -1,0 +1,88 @@
+ <%- include ("header.ejs") %>
+<%- include ("banner.ejs") %>
+
+    <!-- about section -->
+  
+    <!-- <section class="about_section layout_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="img-box">
+                <img src="images/about.png" alt="">
+              </div> -->
+            <!-- </div> -->
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div class="col-md-6">
+              <div class="detail-box">
+                <!-- <div class="section-header text-left"></div> -->
+                <h2 class="custom_heading"> </h2>
+                 <h2>Register here</h2>
+                 <font color="blue"><%- output %></font>
+                 
+                 <form method="post" action="/register">
+                  <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" id="Name" name="Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input type="Email" class="form-control" id="Email" name="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="Password" class="form-control" id="Password" name="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="Mobile">Mobile</label>
+                    <input type="text" class="form-control" id="Mobile" name="Mobile">
+                  </div>
+                  <div class="form-group">
+                    <label for="Name">Address:</label>
+                    <textarea rows="5" class="form-control" id="Address" name="Address"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="City">City</label>
+                    <select class="form-control" id="City" name="City">
+                    <option>Select City</option>
+                    <option>Indore</option>
+                    <option>Bhopal</option>  
+                    <option>Dewas</option>  
+                    <option>Mhow</option>  
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="Gender">Gender</label>
+                     Male <input type="radio" id="Male" name="Gender" value="Male">
+                   &nbsp; &nbsp;
+                     Female <input type="radio" id="Female" name="Gender" value="Female">
+                  </div>
+                  
+                  <button type="submit" class="btn btn-success">Register</button>
+                </form>
+               
+                
+                <!-- <div>
+                  <a href="">
+                    About More
+                  </a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+
+ 
+                                            
+ 
+
+<%- include("footer.ejs") %>
